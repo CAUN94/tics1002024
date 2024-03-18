@@ -1,3 +1,5 @@
+# DEBE ENVIAR UN ZIP CON 2 ARCHIVO UNO POR CADA EJERCICIO
+
 # Tarea: 
 # Calcular la hipoetnusa de un triangulo rectangulo
 # Calcular el area de un circulo, asumiendo que pi es 3.1416
