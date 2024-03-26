@@ -5,6 +5,29 @@
 # nombre = "valor"
 # nombre = 2
 
+# hola = "hola"
+# hola = "hola"
+# print(hola)
+# hola = 'chao'
+# print(hola)
+# print("'Hola'")
+
+var1 = 2
+var2 = 3
+print(var1)
+print(var2)
+print(var1+2)
+print(var1)
+print(var1+var2)
+var1 = var1 + 1
+print(var1)
+nombre = "Tommy"
+apellido = "Shelby"
+print("Tommy"+" "+"Shelby")
+print("Tommy","Shelby")
+nombre_apellido = "Tommy"+" "+"Shelby"
+print(nombre_apellido)
+
 
 # Podemos cambiar el valor de la variable
 
