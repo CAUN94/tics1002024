@@ -15,3 +15,10 @@ goles_equipo3_partido2 = 6
 goles_equipo1_partido3 = 2
 goles_equipo2_partido3 = 0
 goles_equipo3_partido3 = 2
+
+equipos = ["Barcelona", "Real Madrid", "Atletico de Madrid"]
+goles_partido1 = [3, 6, 2]
+goles_partido2 = [6, 6, 6]
+goles_partido3 = [2, 0, 2]
+
+print(f"El {equipos[1]} hizo {goles_partido1[1]} goles en el partido 1")
