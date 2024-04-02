@@ -1,0 +1,1 @@
+# Esta semana no hay tarea, pero tendremos un control en la proxima clase, por lo que les recomiendo que repasen los contenidos de las clases anteriores.
