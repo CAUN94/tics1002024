@@ -4,7 +4,6 @@
 
 lista = [2,5,3,6,1,9,2,10,7,12]
 
-
 # 1. Crear una funcion que reciba una lista de numeros y retorne el promedio de esos numeros
 
 # En este caso el promedio es 5.7
