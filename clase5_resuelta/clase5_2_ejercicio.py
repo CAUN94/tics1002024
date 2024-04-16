@@ -1,0 +1,1 @@
+# Cree un programa que le pida al usuario un mail y un password, si el mail es 'ejemplo@ejemplo.cl' y el password es '123456' imprima 'Bienvenido', en caso contrario imprima 'Mail o password incorrecto' y vuelva a pedir el mail y password
