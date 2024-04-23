@@ -1,27 +1,33 @@
-# Carga los modulos tima, math y random
-import time
 import math
+import time
 import random
 
-# Imprime la fecha y hora actual
-print(time.asctime())
-
-# Haz una pregunta y ve cuanto se demora el usuario en responder
-inicio = time.time()
-input("Presiona enter para continuar")
-final = time.time()
-print('Te demoraste', final - inicio, 'segundos')
-
 # Calcula el seno y coseno de un angulo entregado por el usuario
-angulo = float(input('Ingrese un angulo: '))
-seno = math.sin(angulo)
-coseno = math.cos(angulo)
-print('El seno de', angulo, 'es', seno)
 
-# Genera un numer aleatorio entre 1 y 100
+# angulo = float(input('Ingrese un angulo: '))
+# seno = math.sin(angulo)
+# coseno = math.cos(angulo)
+# print('El seno de', angulo, 'es', seno)
+# print('El coseno de', angulo, 'es', coseno)
 
-numero = random.randint(1, 100)
-print('El numero aleatorio es', numero)
+# Imprime la fecha y hora actual
+# print(time.asctime())
 
+# inicio = time.time()
+# a = input('Presiona enter para continuar')
+# final = time.time()
+# print('Te demoraste', int(final - inicio), 'segundos')
 
+# Dame un numero aleatorio 
 
+# print(random.random())
+
+# while hasta que randomo me de un numero igual a 1
+
+inicio = time.time()
+nr = random.randint(118, 2740000)
+while nr != 200:
+    print(nr)
+    nr = random.randint(118, 2740000)
+final = time.time()
+print('Te demoraste', int(final - inicio), 'segundos')
