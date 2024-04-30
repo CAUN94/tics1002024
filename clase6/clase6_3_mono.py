@@ -7,11 +7,13 @@ abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'
 
 
 palabra = ''
+palabra_buscada = 'hola'
 inicio = time.time()
 # la palabra hola debe existir en alguna parte, no necesariamente que sea la ultima palabra
-while 'hola' not in palabra:
+while palabra_buscada not in palabra:
     letra = random.choice(abc)
     palabra = palabra + letra
     print(palabra)
 final = time.time()
+print()
 print('Te demoraste', int(final - inicio), 'segundos')
